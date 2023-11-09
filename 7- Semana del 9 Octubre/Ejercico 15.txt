@@ -1,0 +1,3 @@
+Preguntar si se borra una reserva si la fecha de fin de la reserva es posterior a la actual. 
+
+Hace falta hacer collect(Collector.toList())? O se puede hacer directamente .toList()?

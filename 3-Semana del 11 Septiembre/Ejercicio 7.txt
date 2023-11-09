@@ -1,0 +1,9 @@
+En el segundo recuadro, primero alan busca en la clase de gerente el metodo sueldoBasico(),
+como no esta en la clase gerente busca en su superclase (EmpleadoJerarquico), encuentra el método sueldoBasico.
+La clase EmpleadoJerarquico en su método de sueldo básico hace un super de sueldoBásico, por ende, EmpleadoJerarquico
+llama a sueldoBasico de su superclase.
+Cuando ejecuta sueldoBasico la clase empleado hace this.montoBasico + this.aportes, los cuales los últimos 2 se ejecutan
+a partir de la clase arranco la cadena de ejecución, en este caso Gerente.
+Cuando termina sueldoBasico de Empleado continua la ejecucion de sueldoBasico de EmpleadoJerarquico y hace this.bonoPorCategoria,
+de nuevo realiza la busqueda desde donde inicio todo (Gerente), en este caso Gerente no tiene el método bonoPorCategoria y
+busca en su superclase la cual tiene el método y hace la suma y finaliza la ejecución dejando el sueldo básico de Alan seteado.

@@ -1,0 +1,4 @@
+-Si una subclase hace uso de un metodo en una clase abstracta conviene hacer el metodo en la clase abstracta y
+luego en las demas subclases hacer el override?
+
+-Hace falta probar todas las clases si ya una clase que utiliza los metodos de otra da bien el resultado?
